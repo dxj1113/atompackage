@@ -1,0 +1,59 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-1171117-5740-t9veo6.oag1egsyvi\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-1171117-5740-t9veo6.oag1egsyvi\\package.tgz",
+        "spec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-1171117-5740-t9veo6.oag1egsyvi\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\apm-install-dir-1171117-5740-1igndq0.bffq7iudi"
+    ]
+  ],
+  "_from": "..\\d-1171117-5740-t9veo6.oag1egsyvi\\package.tgz",
+  "_id": "language-docker@1.1.8",
+  "_inCache": true,
+  "_location": "/language-docker",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-1171117-5740-t9veo6.oag1egsyvi\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-1171117-5740-t9veo6.oag1egsyvi\\package.tgz",
+    "spec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-1171117-5740-t9veo6.oag1egsyvi\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-1171117-5740-t9veo6.oag1egsyvi\\package.tgz",
+  "_shasum": "13730989184f2d85178f464d011af62eb519c582",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-1171117-5740-t9veo6.oag1egsyvi\\package.tgz",
+  "_where": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\apm-install-dir-1171117-5740-1igndq0.bffq7iudi",
+  "bugs": {
+    "url": "https://github.com/jagregory/language-docker/issues"
+  },
+  "dependencies": {},
+  "description": "Dockerfile syntax highlighting",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/jagregory/language-docker#readme",
+  "license": "MIT",
+  "name": "language-docker",
+  "optionalDependencies": {},
+  "private": false,
+  "readme": "# Atom Docker Syntax Highlighting\n\nAtom syntax highlighting for Dockerfiles.\n\n## Install\n\nInstall the package `language-docker` in Atom (Preferences->Packages) or Atom's package manager from a shell:\n\n```bash\n$ apm install language-docker\n```\n\n## Syntax support\n\nlanguage-docker supports most Dockerfile syntax features, as well as .dockerignore files.\n\n## Highlighting of `Dockerfile.<suffix>`\n\nHighlighting based on wildcards is [not supported](https://github.com/atom/first-mate/issues/64) in Atom. You can use package [file-types](https://atom.io/packages/file-types) with this in you `config.cson` to enable it.\n\n```cson\n  \"file-types\": {\n    \"^Dockerfile\\\\..*$\": \"source.dockerfile\"\n  }\n```\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagregory/language-docker.git"
+  },
+  "version": "1.1.8"
+}

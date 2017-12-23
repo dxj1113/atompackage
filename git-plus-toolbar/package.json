@@ -1,0 +1,80 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-1171123-10944-cx52pe.vlzw8qia4i\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-1171123-10944-cx52pe.vlzw8qia4i\\package.tgz",
+        "spec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-1171123-10944-cx52pe.vlzw8qia4i\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\apm-install-dir-1171123-10944-iyy1p3.ehnxqd7vi"
+    ]
+  ],
+  "_from": "..\\d-1171123-10944-cx52pe.vlzw8qia4i\\package.tgz",
+  "_id": "git-plus-toolbar@1.0.1",
+  "_inCache": true,
+  "_location": "/git-plus-toolbar",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-1171123-10944-cx52pe.vlzw8qia4i\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-1171123-10944-cx52pe.vlzw8qia4i\\package.tgz",
+    "spec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-1171123-10944-cx52pe.vlzw8qia4i\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-1171123-10944-cx52pe.vlzw8qia4i\\package.tgz",
+  "_shasum": "3b652908beb2281476cbf08c4cdeccd16de0d7b3",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-1171123-10944-cx52pe.vlzw8qia4i\\package.tgz",
+  "_where": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\apm-install-dir-1171123-10944-iyy1p3.ehnxqd7vi",
+  "bugs": {
+    "url": "https://github.com/Pyragon/git-plus-toolbar/issues"
+  },
+  "consumedServices": {
+    "tool-bar": {
+      "versions": {
+        "^0 || ^1": "consumeToolBar"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.6.0"
+  },
+  "description": "A toolbar to assist with your git-plus needs",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/Pyragon/git-plus-toolbar#readme",
+  "keywords": [
+    "tool-bar",
+    "git-plus"
+  ],
+  "license": "MIT",
+  "main": "./src/git-plus-toolbar",
+  "name": "git-plus-toolbar",
+  "optionalDependencies": {},
+  "package-deps": [
+    "tool-bar",
+    "git-plus"
+  ],
+  "readme": "# git-plus-toolbar package\n\nA toolbar made for the git-plus package for Atom.\nThis toolbar was made for ease-of-use, and all functionality is credited to the author of git-plus.\n\n![A screenshot of your package](https://github.com/Pyragon/git-plus-toolbar/raw/master/toolbar-image.png)\n\n# Buttons\n*   New File\n*   Add Project folder\n*   Init\n*   Create New branch\n*   Checkout branch\n*   Add File\n*   Add All files\n*   Commit\n*   Compare\n*   Push\n*   Pull\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pyragon/git-plus-toolbar.git"
+  },
+  "version": "1.0.1"
+}

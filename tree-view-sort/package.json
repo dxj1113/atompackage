@@ -1,0 +1,135 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-1171117-12044-1uk2ysb.iupdokcsor\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-1171117-12044-1uk2ysb.iupdokcsor\\package.tgz",
+        "spec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-1171117-12044-1uk2ysb.iupdokcsor\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\apm-install-dir-1171117-12044-11mes0y.czjs8aor"
+    ]
+  ],
+  "_from": "..\\d-1171117-12044-1uk2ysb.iupdokcsor\\package.tgz",
+  "_id": "tree-view-sort@0.8.1",
+  "_inCache": true,
+  "_location": "/tree-view-sort",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-1171117-12044-1uk2ysb.iupdokcsor\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-1171117-12044-1uk2ysb.iupdokcsor\\package.tgz",
+    "spec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-1171117-12044-1uk2ysb.iupdokcsor\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-1171117-12044-1uk2ysb.iupdokcsor\\package.tgz",
+  "_shasum": "67006067e2ce9c3ba37d9ddce7c7158a21733166",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-1171117-12044-1uk2ysb.iupdokcsor\\package.tgz",
+  "_where": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\apm-install-dir-1171117-12044-11mes0y.czjs8aor",
+  "bugs": {
+    "url": "https://github.com/hex-ci/atom-tree-view-sort/issues"
+  },
+  "configSchema": {
+    "type": {
+      "title": "Sort By",
+      "description": "The sorting type of the Atom tree-view package.",
+      "type": "integer",
+      "default": 1,
+      "enum": [
+        {
+          "value": 0,
+          "description": "Default (disable the tree-view-sort package)"
+        },
+        {
+          "value": 1,
+          "description": "File name"
+        },
+        {
+          "value": 2,
+          "description": "File extension name"
+        },
+        {
+          "value": 3,
+          "description": "File size"
+        },
+        {
+          "value": 4,
+          "description": "File access time"
+        },
+        {
+          "value": 5,
+          "description": "File change time"
+        },
+        {
+          "value": 6,
+          "description": "File modify time"
+        },
+        {
+          "value": 7,
+          "description": "File creation time"
+        },
+        {
+          "value": 8,
+          "description": "File group name"
+        }
+      ],
+      "order": 1
+    },
+    "descending": {
+      "title": "Descending Sorting",
+      "description": "Use descending sorting, otherwise use ascending sorting. Unavailable when the tree-view-sort package is disabled.",
+      "type": "boolean",
+      "default": false,
+      "order": 2
+    },
+    "caseSensitive": {
+      "title": "Case-Sensitive Sorting",
+      "description": "Use case-sensitive sorting, otherwise use case-insensitive sorting. Unavailable when the tree-view-sort package is disabled.",
+      "type": "boolean",
+      "default": true,
+      "order": 3
+    },
+    "sortFoldersBeforeFiles": {
+      "title": "Sort Folders Before Files",
+      "description": "When listing directory items, list subdirectories before listing files.",
+      "type": "boolean",
+      "default": true,
+      "order": 4
+    }
+  },
+  "dependencies": {
+    "fs-plus": "^3.0.0"
+  },
+  "description": "Add a sorting feature for the Atom tree-view package.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/hex-ci/atom-tree-view-sort#readme",
+  "keywords": [
+    "tree",
+    "tree-view",
+    "sorting",
+    "sort"
+  ],
+  "license": "MIT",
+  "main": "./lib/tree-view-sort",
+  "name": "tree-view-sort",
+  "optionalDependencies": {},
+  "readme": "# tree-view-sort package\n[![Version](https://img.shields.io/apm/v/tree-view-sort.svg?style=flat-square)](https://atom.io/packages/tree-view-sort)\n[![Downloads](https://img.shields.io/apm/dm/tree-view-sort.svg?style=flat-square)](https://atom.io/packages/tree-view-sort)\n\nAdd a sorting feature for the Atom tree-view package.\n\n## Features\n\n### Sort By\n\n*   File name\n*   File extension name\n*   File size\n*   File access time\n*   File change time\n*   File modify time\n*   File creation time\n*   File group name, group mean \"component\", \"directive\" etc, e.g. \"a.component.js\" \"b.component.js\" \"a.directive.js\" \"b.directive.js\"\n\n### Descending Sorting\n\nYou can set descending sorting or ascending sorting.\n\n### Case-Sensitive Sorting\n\nYou can set case-sensitive sorting or case-insensitive sorting.\n\n### Sort Folders Before Files\n\nWhen listing directory items, list subdirectories before listing files.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hex-ci/atom-tree-view-sort.git"
+  },
+  "version": "0.8.1"
+}
